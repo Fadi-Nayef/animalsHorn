@@ -1,8 +1,8 @@
 import React from 'react';
 import Header from './component/header';
 import Footer from './component/footer';
-import Main from './component/main';
 import Data from './component/data.json';
+import Main from './component/main';
 import SelectedBeast from './component/SelectedBeast';
 class App extends React.Component {
   constructor(props) {
@@ -13,6 +13,7 @@ class App extends React.Component {
       Data: Data,
     }
   }
+  
   handleShow = () => {
     this.setState({
       show: true,
